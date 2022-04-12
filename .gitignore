@@ -1,6 +1,9 @@
 # Database file
 splooper
 
+# Spotipy
+.spotify_caches/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -18,6 +21,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+include/
 lib/
 lib64/
 parts/
@@ -68,6 +72,7 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
+.flask_session
 
 # Scrapy stuff:
 .scrapy
